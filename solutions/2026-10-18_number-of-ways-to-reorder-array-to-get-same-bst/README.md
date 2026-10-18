@@ -3,7 +3,7 @@
 [![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge)](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 [![Language](https://img.shields.io/badge/Language-Java_21-orange?style=for-the-badge&logo=openjdk)](Solution.java)
 [![Date](https://img.shields.io/badge/Solved-2026-10-18-blue?style=for-the-badge)](README.md)
-[![Verdict](https://img.shields.io/badge/Verdict-ready_for_submission-brightgreen?style=for-the-badge)](README.md)
+[![Verdict](https://img.shields.io/badge/Verdict-Wrong_Answer-brightgreen?style=for-the-badge)](README.md)
 
 - **Problem Link:** [LeetCode - Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 - **Runtime:** `N/A`
