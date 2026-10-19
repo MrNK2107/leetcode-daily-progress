@@ -3,11 +3,11 @@
 [![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge)](https://leetcode.com/problems/find-target-indices-after-sorting-array/)
 [![Language](https://img.shields.io/badge/Language-Java_21-orange?style=for-the-badge&logo=openjdk)](Solution.java)
 [![Date](https://img.shields.io/badge/Solved-2026-10-19-blue?style=for-the-badge)](README.md)
-[![Verdict](https://img.shields.io/badge/Verdict-ready_for_submission-brightgreen?style=for-the-badge)](README.md)
+[![Verdict](https://img.shields.io/badge/Verdict-Accepted-brightgreen?style=for-the-badge)](README.md)
 
 - **Problem Link:** [LeetCode - Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)
-- **Runtime:** `N/A`
-- **Memory:** `N/A`
+- **Runtime:** `6 ms`
+- **Memory:** `49.8 MB`
 
 ---
 
