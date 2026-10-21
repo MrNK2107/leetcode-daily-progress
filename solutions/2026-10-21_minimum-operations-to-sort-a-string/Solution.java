@@ -1,67 +1,70 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 class Solution {
     /**
-     * Calculates the minimum number of operations (moves) required to sort a string S.
-     * This is equivalent to N - L, where N is the length of S, and L is the 
-     * length of the Longest Non-Decreasing Subsequence (LNDS) of S.
-     * We use an O(N log N) algorithm based on patience sorting principles for LNDS.
-     * 
+     * Calculates the minimum number of operations required to sort string s in non-descending order.
+     * In one operation, any substring of s (not the entire string) can be sorted.
+     * If impossible, returns -1.
+     *
      * @param s The input string.
-     * @return Minimum operations required.
+     * @return Minimum operations to sort the string, or -1 if impossible.
      */
     public int minOperations(String s) {
         if (s == null || s.length() <= 1) {
             return 0;
         }
 
-        // tails stores the smallest tail character for all non-decreasing subsequences found so far.
-        // This list maintains the sorted property required for binary search.
-        List<Character> tails = new ArrayList<>();
         int n = s.length();
+        char[] chars = s.toCharArray();
+        char[] sorted = s.toCharArray();
+        Arrays.sort(sorted);
 
+        // Check if string is already sorted
+        boolean isSorted = true;
         for (int i = 0; i < n; i++) {
-            char c = s.charAt(i);
-            
-            // Find the index j of the first element in 'tails' that is strictly greater than c.
-            // This is equivalent to finding the upper bound of c.
-            int j = findUpperBoundIndex(tails, c);
+            if (chars[i] != sorted[i]) {
+                isSorted = false;
+                break;
+            }
+        }
+        if (isSorted) {
+            return 0;
+        }
 
-            if (j == tails.size()) {
-                // Case 1: All elements in tails are <= c. We extend the longest subsequence found so far.
-                tails.add(c);
-            } else {
-                // Case 2: Found an element tails[j] > c. By replacing it with c, we create a 
-                // new non-decreasing subsequence of length j+1 ending in a smaller character (c), 
-                // which is always beneficial for future extensions.
-                tails.set(j, c);
+        // A string of length 2 cannot be sorted by any proper substring (< 2)
+        if (n <= 2) {
+            return -1;
+        }
+
+        char minChar = sorted[0];
+        char maxChar = sorted[n - 1];
+
+        // If the first character is already the minimum, we can sort s[1 ... n-1] in 1 operation.
+        // If the last character is already the maximum, we can sort s[0 ... n-2] in 1 operation.
+        if (chars[0] == minChar || chars[n - 1] == maxChar) {
+            return 1;
+        }
+
+        // In 2 operations:
+        // We can move minChar to index 0 if minChar exists in s[0 ... n-2] (sort prefix, then sort suffix).
+        // Or we can move maxChar to index n-1 if maxChar exists in s[1 ... n-1] (sort suffix, then sort prefix).
+        boolean canDoIn2 = false;
+        for (int i = 0; i < n - 1; i++) {
+            if (chars[i] == minChar) {
+                canDoIn2 = true;
+                break;
+            }
+        }
+        if (!canDoIn2) {
+            for (int i = 1; i < n; i++) {
+                if (chars[i] == maxChar) {
+                    canDoIn2 = true;
+                    break;
+                }
             }
         }
 
-        int lndsLength = tails.size();
-        return n - lndsLength;
-    }
-
-    /**
-     * Finds the index of the first element in the list that is strictly greater than target.
-     * Returns list.size() if all elements are less than or equal to target.
-     * This implements the upper_bound logic for binary search.
-     */
-    private int findUpperBoundIndex(List<Character> tails, char target) {
-        int low = 0;
-        int high = tails.size(); // Search range is [low, high)
-
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (tails.get(mid) > target) {
-                // This element might be the upper bound, try searching earlier
-                high = mid;
-            } else {
-                // tails[mid] <= target. We must search in the right half.
-                low = mid + 1;
-            }
-        }
-        return low; // 'low' is the insertion point (index of first element > target)
+        // If chars[n-1] is the ONLY minChar and chars[0] is the ONLY maxChar, it requires 3 operations.
+        return canDoIn2 ? 2 : 3;
     }
 }
