@@ -3,11 +3,11 @@
 [![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge)](https://leetcode.com/problems/minimum-operations-to-sort-a-string/)
 [![Language](https://img.shields.io/badge/Language-Java_21-orange?style=for-the-badge&logo=openjdk)](Solution.java)
 [![Date](https://img.shields.io/badge/Solved-2026-10-21-blue?style=for-the-badge)](README.md)
-[![Verdict](https://img.shields.io/badge/Verdict-ready_for_submission-brightgreen?style=for-the-badge)](README.md)
+[![Verdict](https://img.shields.io/badge/Verdict-Accepted-brightgreen?style=for-the-badge)](README.md)
 
 - **Problem Link:** [LeetCode - Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/)
-- **Runtime:** `N/A`
-- **Memory:** `N/A`
+- **Runtime:** `29 ms`
+- **Memory:** `48 MB`
 
 ---
 
