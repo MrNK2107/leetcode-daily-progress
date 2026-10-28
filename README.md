@@ -9,6 +9,7 @@ Every day, the daily challenge is solved in **Java** using a local **Gemma 4** m
 
 | Date | # | Problem | Difficulty | Solution | Explanation | Verdict | Runtime |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| `2026-10-28` | `3882` | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | `Medium` | [Java](solutions/2026-10-28_minimum-xor-path-in-a-grid/Solution.java) | [Explanation](solutions/2026-10-28_minimum-xor-path-in-a-grid/README.md) | **ready_for_submission** | `N/A` |
 | `2026-10-27` | `3963` | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | `Easy` | [Java](solutions/2026-10-27_create-grid-with-exactly-one-path/Solution.java) | [Explanation](solutions/2026-10-27_create-grid-with-exactly-one-path/README.md) | **ready_for_submission** | `N/A` |
 | `2026-10-26` | `3619` | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | `Medium` | [Java](solutions/2026-10-26_count-islands-with-total-value-divisible-by-k/Solution.java) | [Explanation](solutions/2026-10-26_count-islands-with-total-value-divisible-by-k/README.md) | **ready_for_submission** | `N/A` |
 | `2026-10-25` | `1254` | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | `Medium` | [Java](solutions/2026-10-25_number-of-closed-islands/Solution.java) | [Explanation](solutions/2026-10-25_number-of-closed-islands/README.md) | **ready_for_submission** | `N/A` |
