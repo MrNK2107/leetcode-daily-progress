@@ -9,6 +9,7 @@ Every day, the daily challenge is solved in **Java** using a local **Gemma 4** m
 
 | Date | # | Problem | Difficulty | Solution | Explanation | Verdict | Runtime |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| `2026-11-08` | `1267` | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | `Medium` | [Java](solutions/2026-11-08_count-servers-that-communicate/Solution.java) | [Explanation](solutions/2026-11-08_count-servers-that-communicate/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-07` | `1882` | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | `Medium` | [Java](solutions/2026-11-07_process-tasks-using-servers/Solution.java) | [Explanation](solutions/2026-11-07_process-tasks-using-servers/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-06` | `2747` | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | `Medium` | [Java](solutions/2026-11-06_count-zero-request-servers/Solution.java) | [Explanation](solutions/2026-11-06_count-zero-request-servers/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-03` | `3736` | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | `Easy` | [Java](solutions/2026-11-03_minimum-moves-to-equal-array-elements-iii/Solution.java) | [Explanation](solutions/2026-11-03_minimum-moves-to-equal-array-elements-iii/README.md) | **ready_for_submission** | `N/A` |
