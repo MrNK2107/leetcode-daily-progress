@@ -9,6 +9,7 @@ Every day, the daily challenge is solved in **Java** using a local **Gemma 4** m
 
 | Date | # | Problem | Difficulty | Solution | Explanation | Verdict | Runtime |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| `2026-11-25` | `3934` | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | `Hard` | [Java](solutions/2026-11-25_smallest-unique-subarray/Solution.java) | [Explanation](solutions/2026-11-25_smallest-unique-subarray/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-24` | `3411` | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | `Easy` | [Java](solutions/2026-11-24_maximum-subarray-with-equal-products/Solution.java) | [Explanation](solutions/2026-11-24_maximum-subarray-with-equal-products/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-23` | `1352` | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | `Medium` | [Java](solutions/2026-11-23_product-of-the-last-k-numbers/Solution.java) | [Explanation](solutions/2026-11-23_product-of-the-last-k-numbers/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-22` | `2124` | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | `Easy` | [Java](solutions/2026-11-22_check-if-all-as-appears-before-all-bs/Solution.java) | [Explanation](solutions/2026-11-22_check-if-all-as-appears-before-all-bs/README.md) | **ready_for_submission** | `N/A` |
