@@ -9,6 +9,7 @@ Every day, the daily challenge is solved in **Java** using a local **Gemma 4** m
 
 | Date | # | Problem | Difficulty | Solution | Explanation | Verdict | Runtime |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| `2026-11-27` | `3946` | [Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/) | `Medium` | [Java](solutions/2026-11-27_maximum-number-of-items-from-sale-i/Solution.java) | [Explanation](solutions/2026-11-27_maximum-number-of-items-from-sale-i/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-26` | `3360` | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | `Easy` | [Java](solutions/2026-11-26_stone-removal-game/Solution.java) | [Explanation](solutions/2026-11-26_stone-removal-game/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-25` | `3934` | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | `Hard` | [Java](solutions/2026-11-25_smallest-unique-subarray/Solution.java) | [Explanation](solutions/2026-11-25_smallest-unique-subarray/README.md) | **ready_for_submission** | `N/A` |
 | `2026-11-24` | `3411` | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | `Easy` | [Java](solutions/2026-11-24_maximum-subarray-with-equal-products/Solution.java) | [Explanation](solutions/2026-11-24_maximum-subarray-with-equal-products/README.md) | **ready_for_submission** | `N/A` |
